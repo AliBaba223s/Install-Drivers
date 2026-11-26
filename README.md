@@ -2,6 +2,18 @@
 
 One PowerShell script that installs **every driver for a laptop in one go**: silently, in the right order, and with **only one administrator prompt at the very start**. After you click **Yes** once, you can walk away.
 
+## Why I built it
+
+During my IT service desk co-op, laptops kept arriving with missing drivers. Fixing one meant finding each missing driver, entering admin credentials, installing it and restarting, then repeating that for every driver. I later built this on my own to turn that whole job into one run with a single admin prompt.
+
+## Results
+
+Tested end to end on a Lenovo Yoga 7 (14ITL5) that had Wi-Fi and trackpad problems. The script installed its drivers and fixed both issues.
+
+## How I built it
+
+Written in PowerShell 5.1, with parts of it built with help from Claude Code.
+
 ---
 
 ## ⚠️ Before you start: you need ONE big folder with ALL the drivers
